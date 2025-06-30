@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    align-items: center;
+}
+
+.web-name h1{
+    padding: 15px;
+    color: white;
+}
+
+.nav-links{
+    gap: 30px;
+    display: flex;
+}
+
+.nav-links a{
+    color: black;
+    border: 2px solid;
+    border-radius: 15px;
+    padding: 4px;
+    background-color: lightblue;
+}
+
+.nav-links a:hover{
+    background-color: blueviolet;
+}
+
+.shop-link a{
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 4px;
+    background-color: blueviolet;
+    font-size: 18px;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    padding-top: 180px;
+    align-items: center;
+    display: flex;
+    gap: 50px;
+}
+
+.text p{
+    font-family: sans-serif;
+}
+
+
+.text a{
+    border: none;
+    border-radius: 5px;
+    width: 120px;
+    height: 55px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 20px;
+    padding: 14px;
+
+}
+body{
+    background-image: url("/e-commerce.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.text a:active{
+    width: 130px;
+    height: 55px;
+}
